@@ -7,5 +7,5 @@ prisma.user.findFirst(
         rejectOnNotFound: true
     }
 ).then(user => {
-    user!._count // this is nullable
+    user._count // this is nullable
 })
